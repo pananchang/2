@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client8082" />
+        <module name="eureka8081" />
+        <module name="server8083" />
+        <module name="uereka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client8082" target="1.8" />
+      <module name="eureka8081" target="1.8" />
+      <module name="server8083" target="1.8" />
+      <module name="uereka" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
